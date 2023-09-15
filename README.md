@@ -14,13 +14,13 @@ Flask : You need to installed Flask by using command `pip install flask`
 
 OpenAI: To install openai, use pip: `pip install openai`.
 
-Jupyter Notebook: Install VS code to run the code.
+Vs Code : Install VS code to run the code.
 
 ## How to Run
 
 To run the project:
 
-Open the above file in Jupyter VS code.
+Open the above file in VS code.
 fill the required .
 First We need to Run proxy_server.py 
 Second file i.e. proxy_server_test.py to check the proxy server.
