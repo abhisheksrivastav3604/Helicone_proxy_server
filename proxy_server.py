@@ -3,8 +3,8 @@ import openai
 import os
 app = Flask(__name__)
 
-@app.route("/request/openai/deployments/GPT4-8k/chat/completions", methods=["POST"])
-def process_request():
+@app.route("/request/<path:remaining_path>", methods=["POST"])
+def process_request(remaining_path):
     try:
         helicone_auth = request.headers.get("authorization-key")
         user_name = request.headers.get("user-id")
