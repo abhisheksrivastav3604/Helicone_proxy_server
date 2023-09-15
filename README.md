@@ -27,10 +27,13 @@ To run this project, you need the following prerequisites:
 ## How to Run
 
 To run the project:
-Open the above file in VS code.
-fill the required Information 
-First We need to Run proxy_server.py 
-Second file i.e. proxy_server_test.py to check the proxy server.
+1. Open the above file in VS code.
+2. fill the required Information.
+3. First We need to Run proxy_server.py
+4. Run Second file i.e. proxy_server_test.py to check the proxy server.
+
+
+
 
 
 
